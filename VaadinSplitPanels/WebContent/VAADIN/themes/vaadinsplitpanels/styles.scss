@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "vaadinsplitpanels.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadinsplitpanels.scss */
+.vaadinsplitpanels {
+  @include addons;
+  @include vaadinsplitpanels;
+}
